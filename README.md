@@ -64,3 +64,14 @@ This notebook includes:
   - Fake news texts.
 - **Visualizing the comparison** with a bar chart showing average lengths.
 
+### 7. Detecting Sensationalism in Fake News
+
+The **sensationalism detection** is performed in the notebook **DetectingSensationalismInFakeNews.ipynb**, located in the `6_detecting_sensationalism_in_fake_news` folder.
+
+This notebook includes:
+- **Defining sensational keywords** (e.g., shocking, unbelievable, explosive).
+- **Applying detection** on news text to mark sensationalism.
+- **Building a contingency table** comparing sensationalism presence with article labels (real or fake).
+- **Running a chi-square test** to check if there is a statistically significant association between sensationalism and fake news.
+
+
