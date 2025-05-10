@@ -124,3 +124,21 @@ Key components:
 - **Prediction Function**: The `fake_news_predictor()` function takes a news title as input and returns a prediction (`Fake` or `Real`).
 
 This notebook highlights a practical approach to quick fake news detection using only the titles of articles.
+
+### 12. Evaluating Fake News Detection Model with Confusion Matrix
+
+The notebook **EvaluatingFakeNewsDetectionModelwithConfusionMatrix.ipynb**, found in the `11 evaluating fake news detection model with confusion matrix` folder, focuses on evaluating a fake news classifier using a **confusion matrix**.
+
+Key components:
+- **TF-IDF Vectorization**: Converts article titles into numerical features using TF-IDF (max 1000 features, English stop words).
+- **Label Encoding**: Transforms the text labels into numeric format.
+- **Model Training**: A **Random Forest Classifier** is trained on the TF-IDF features.
+- **Evaluation**: The model's predictions on the test set are evaluated using `confusion_matrix` from `sklearn.metrics`.
+
+The confusion matrix provides insight into:
+- True Positives (TP)
+- True Negatives (TN)
+- False Positives (FP)
+- False Negatives (FN)
+
+This notebook is useful for assessing the classification performance of fake news detectors beyond mere accuracy.
