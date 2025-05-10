@@ -18,14 +18,16 @@ The notebook **fakeNewsDatasetOverview.ipynb** contains code for the following t
 
 
 ### 3. Data Cleaning and Preprocessing
+
 The **data cleaning** is done in the notebook **fakeNewsDataCleaning.ipynb** located in the `2_data_cleaning` folder. This notebook performs the following steps:
 - Identifies and displays rows with missing values.
 - Identifies and displays duplicated rows.
 - Removes rows with missing values and duplicates.
 - Saves the cleaned dataset as `news_articles_cleaned.csv` in the `dataset` folder.
+
 ### 4. News Source Credibility Analysis
 
-The **credibility analysis** is performed in the notebook **NewsSourceCredibilityAnalysis.ipynb**, located in the `3_news_source_credibility_analysis` folder.
+The **credibility analysis** is performed in the notebook **NewsSourceCredibilityAnalysis.ipynb**, located in the `3 news source credibility analysis` folder.
 
 This notebook includes:
 - **Grouping articles by `site_url` and `label`** (Real/Fake).
@@ -34,3 +36,16 @@ This notebook includes:
   - The **top 10 most credible** sources (highest percentage of real news).
   - The **top 10 least credible** sources (lowest percentage of real news).
 - **Displaying the results** in a clear, ranked list.
+
+### 5. Detecting Keywords Associated with Fake News
+
+The **keyword detection** is performed in the notebook **DetectingKeywordsAssociatedWithFakeNews.ipynb**, located in the `4 detecting keywords associated with fake news` folder.
+
+This notebook includes:
+- **Tokenizing** the words in article titles and texts.
+- **Removing stopwords** (common words) and non-alphabetic tokens.
+- **Counting word frequencies** specifically for articles labeled as "Fake."
+- **Identifying the top 5 most common keywords** in:
+  - Fake news titles.
+  - Fake news texts.
+- **Displaying the results** with the most frequent words and their counts.
