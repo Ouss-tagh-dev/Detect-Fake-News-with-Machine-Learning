@@ -15,3 +15,11 @@ The notebook **fakeNewsDatasetOverview.ipynb** contains code for the following t
 #### Key actions in the notebook:
 - **Data Loading**: The dataset is read into a Pandas DataFrame.
 - **Data Inspection**: Displays the first few records, the shape of the dataset, column names, and data types.
+
+
+### 3. Data Cleaning and Preprocessing
+The **data cleaning** is done in the notebook **fakeNewsDataCleaning.ipynb** located in the `2_data_cleaning` folder. This notebook performs the following steps:
+- Identifies and displays rows with missing values.
+- Identifies and displays duplicated rows.
+- Removes rows with missing values and duplicates.
+- Saves the cleaned dataset as `news_articles_cleaned.csv` in the `dataset` folder.
