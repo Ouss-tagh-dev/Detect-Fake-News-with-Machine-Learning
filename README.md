@@ -86,3 +86,14 @@ This notebook performs:
 
 This step helps understand the emotional tone often used in fake vs. real news.
 
+### 9. Detecting Fake News with Feature Engineering
+
+The notebook **DetectingFakeNewsWithFeatureEngineering.ipynb**, located in the `8_detecting_fake_news_with_feature_engineering` folder, implements a simple feature engineering approach to predict fake news.
+
+Key components:
+- **Top keywords extraction**: Identifies the top 10 most frequent words in fake news articles.
+- **Source analysis**: Calculates the percentage of fake news per `site_url`.
+- **Prediction function**: Uses both title keyword presence and the source’s fake news percentage to predict whether a given article is fake or real.
+- **Test predictions**: Runs example predictions to demonstrate the approach.
+
+This part integrates keyword features and metadata to enhance fake news detection.
