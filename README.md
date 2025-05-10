@@ -49,3 +49,18 @@ This notebook includes:
   - Fake news titles.
   - Fake news texts.
 - **Displaying the results** with the most frequent words and their counts.
+
+### 6. News Title & Text Length Analysis
+
+The **length analysis** is performed in the notebook **NewsTitleAndTextLengthAnalysis.ipynb**, located in the `5 news title & text length analysis` folder.
+
+This notebook includes:
+- **Calculating the length** (in characters) of news titles and texts.
+- **Separating data** between real and fake news articles.
+- **Computing the average length** for:
+  - Real news titles.
+  - Fake news titles.
+  - Real news texts.
+  - Fake news texts.
+- **Visualizing the comparison** with a bar chart showing average lengths.
+
