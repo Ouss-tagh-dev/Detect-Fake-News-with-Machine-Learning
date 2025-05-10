@@ -111,3 +111,16 @@ Key components:
 - **Test Prediction**: An example news article is used to demonstrate the prediction function.
 
 This approach showcases a basic yet effective pipeline for fake news classification.
+
+
+### 11. Detecting Fake News with Random Forest
+
+The notebook **DetectingFakeNewsWithRandomForest.ipynb**, located in the `10_detecting_fake_news_with_random_forest` folder, demonstrates how to build a fake news classifier using **Random Forest** and **TF-IDF** on the **titles** of news articles.
+
+Key components:
+- **TF-IDF Vectorization**: Converts article titles into numerical features using TF-IDF with a maximum of 5000 features and English stop words.
+- **Label Encoding**: Encodes the categorical labels (`Real`, `Fake`) into integers.
+- **Modeling**: A **Random Forest Classifier** is trained on the TF-IDF features of the titles.
+- **Prediction Function**: The `fake_news_predictor()` function takes a news title as input and returns a prediction (`Fake` or `Real`).
+
+This notebook highlights a practical approach to quick fake news detection using only the titles of articles.
