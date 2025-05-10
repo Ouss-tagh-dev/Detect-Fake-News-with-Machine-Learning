@@ -74,4 +74,15 @@ This notebook includes:
 - **Building a contingency table** comparing sensationalism presence with article labels (real or fake).
 - **Running a chi-square test** to check if there is a statistically significant association between sensationalism and fake news.
 
+### 8. Analyzing Emotion in Fake News with NLP
+
+The **sentiment analysis** is carried out in the notebook **AnalyzingEmotionInFakeNewsWithNLP.ipynb**, located in the `7 analyzing emotion in fake news with nlp` folder.
+
+This notebook performs:
+- **Sentiment analysis** using NLTK’s VADER tool.
+- **Classifying each article’s text** as positive, negative, or neutral.
+- **Adding a new column** `Sentiment` to the dataset showing the detected sentiment.
+- **Displaying results** for manual inspection of sentiment labels.
+
+This step helps understand the emotional tone often used in fake vs. real news.
 
