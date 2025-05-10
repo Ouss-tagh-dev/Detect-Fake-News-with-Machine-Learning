@@ -97,3 +97,17 @@ Key components:
 - **Test predictions**: Runs example predictions to demonstrate the approach.
 
 This part integrates keyword features and metadata to enhance fake news detection.
+
+
+### 10. Detecting Fake News with Logistic Regression
+
+The notebook **DetectingFakeNewsWithLogisticRegression.ipynb**, located in the `9 detecting fake news with logistic regression` folder, demonstrates the use of **Logistic Regression** combined with **TF-IDF vectorization** for fake news detection.
+
+Key components:
+- **Data Preprocessing**: The dataset is checked for missing values, and label encoding is applied to the target labels.
+- **Feature Extraction**: **TF-IDF** is used to convert text data into numerical features.
+- **Modeling**: A **Logistic Regression** model is trained using the vectorized text data.
+- **Prediction**: The model predicts whether a given news article is real or fake, achieving an accuracy score on the test set.
+- **Test Prediction**: An example news article is used to demonstrate the prediction function.
+
+This approach showcases a basic yet effective pipeline for fake news classification.
