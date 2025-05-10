@@ -142,3 +142,20 @@ The confusion matrix provides insight into:
 - False Negatives (FN)
 
 This notebook is useful for assessing the classification performance of fake news detectors beyond mere accuracy.
+
+
+### 13. Performing Fairness Audit
+
+The notebook **PerformingFairnessAudit.ipynb**, located in the `12 performing fairness audit` folder, introduces a **fairness audit** for a fake news classifier.
+
+Main components:
+- **TF-IDF Vectorization**: Title-based feature extraction using 5000 max features and English stop words.
+- **Random Forest Classifier**: Trained on encoded labels.
+- **Custom Fairness Metric**:  
+  A custom function calculates **Demographic Parity Difference (DPD)** by comparing the positive prediction rates between two groups (`label == 0` vs. `label == 1`).
+
+Highlights:
+- This notebook evaluates whether the model treats different groups (e.g., Real vs Fake news) **equally in terms of positive prediction rates**.
+- A small DPD value suggests **fairer treatment** across groups.
+
+Note: While this example uses the labels as a sensitive attribute, in real-world fairness audits, demographic attributes like gender, race, or region are more appropriate.
