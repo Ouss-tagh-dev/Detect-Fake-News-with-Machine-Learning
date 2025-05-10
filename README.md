@@ -23,3 +23,14 @@ The **data cleaning** is done in the notebook **fakeNewsDataCleaning.ipynb** loc
 - Identifies and displays duplicated rows.
 - Removes rows with missing values and duplicates.
 - Saves the cleaned dataset as `news_articles_cleaned.csv` in the `dataset` folder.
+### 4. News Source Credibility Analysis
+
+The **credibility analysis** is performed in the notebook **NewsSourceCredibilityAnalysis.ipynb**, located in the `3_news_source_credibility_analysis` folder.
+
+This notebook includes:
+- **Grouping articles by `site_url` and `label`** (Real/Fake).
+- **Calculating the percentage** of real and fake news for each news source.
+- **Sorting the sources** to identify:
+  - The **top 10 most credible** sources (highest percentage of real news).
+  - The **top 10 least credible** sources (lowest percentage of real news).
+- **Displaying the results** in a clear, ranked list.
